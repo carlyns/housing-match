@@ -5,7 +5,6 @@ MVP
 3.  compare profiles to each other if you have it 80% filled out; shows different people and you can add them to a group (if you're 100% complete) and see what it looks like and name the group
 4.  once you are an official group, and everyone has agreed, then everyone can see each other's information -- can be in multiple official groups at a time
 
-
 you can see who of your network has already taken this quiz/made a profile
 fill out the profile - negotiable vs non negotiable
 review the information
@@ -30,3 +29,13 @@ also:
   matching people with properties
   matching people to existing cooperatives
   messaging
+
+
+
+//need another migration for users that adds what is missing:
+      t.string :first_name
+      t.text :safe_neighborhood_definitions
+
+
+//to use devise, see:
+https://github.com/plataformatec/devise
