@@ -1050,3 +1050,89 @@ Processing by Users::RegistrationsController#new as HTML
 Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2016-10-22 12:00:02 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#index as HTML
+  Rendering application/index.html.erb within layouts/application
+  Rendered application/index.html.erb within layouts/application (13.8ms)
+Completed 500 Internal Server Error in 258ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/melaniemazanec/Documents/Code_and_Repos/housing-match/app/views/layouts/application.html.erb:15: syntax error, unexpected =>, expecting ')'
+/Users/melaniemazanec/Documents/Code_and_Repos/housing-match/app/views/layouts/application.html.erb:20: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/melaniemazanec/Documents/Code_and_Repos/housing-match/app/views/layouts/application.html.erb:22: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/layouts/application.html.erb:15: syntax error, unexpected =>, expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:22: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.3ms)
+  Rendering /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendering /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (141.9ms)
+Started GET "/" for ::1 at 2016-10-22 12:01:47 -0500
+Processing by ApplicationController#index as HTML
+  Rendering application/index.html.erb within layouts/application
+  Rendered application/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/melaniemazanec/Documents/Code_and_Repos/housing-match/app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+    <%= yield );@output_buffer.safe_append='
+     ^
+/Users/melaniemazanec/Documents/Code_and_Repos/housing-match/app/views/layouts/application.html.erb:21: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/melaniemazanec/Documents/Code_and_Repos/housing-match/app/views/layouts/application.html.erb:23: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:21: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.5ms)
+  Rendering /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (70.5ms)
+Started GET "/" for ::1 at 2016-10-22 12:02:05 -0500
+Processing by ApplicationController#index as HTML
+  Rendering application/index.html.erb within layouts/application
+  Rendered application/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 1363ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial application/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/melaniemazanec/Documents/Code_and_Repos/housing-match/app/views"
+  * "/Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/devise-4.2.0/app/views"
+):
+    13:   </head>
+    14: 
+    15:   <body>
+    16:     <%= render "navbar" %>
+    17:     <%= yield %>
+    18:   </body>
+    19: </html>
+  
+app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb__4303331276838163167_70200731716280'
+  Rendering /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.9ms)
+  Rendering /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/melaniemazanec/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (78.8ms)
+Started GET "/" for ::1 at 2016-10-22 12:02:24 -0500
+Processing by ApplicationController#index as HTML
+  Rendering application/index.html.erb within layouts/application
+  Rendered application/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 31ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
